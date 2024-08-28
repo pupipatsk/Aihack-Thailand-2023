@@ -1,0 +1,520 @@
+model	score_test	score_val	eval_metric	pred_time_test	pred_time_val	fit_time	pred_time_test_marginal	pred_time_val_marginal	fit_time_marginal	stack_level	can_infer	fit_order
+0	WeightedEnsemble_L3	0.668639	0.658358	roc_auc	15.767540	12.860417	5221.300393	0.002628	0.003778	8.988572	3	True	35
+1	XGBoost_BAG_L2	0.668093	0.650633	roc_auc	14.144711	11.333313	4937.377514	0.415924	0.118575	11.674815	2	True	32
+2	CatBoost_BAG_L2	0.668083	0.654026	roc_auc	13.796168	11.275651	4956.385784	0.067381	0.060913	30.683086	2	True	29
+3	WeightedEnsemble_L2	0.667584	0.658490	roc_auc	9.649440	8.960944	4465.244959	0.002663	0.004617	8.332286	2	True	24
+4	CatBoost_r177_BAG_L1	0.667409	0.650827	roc_auc	0.065537	0.057133	40.279507	0.065537	0.057133	40.279507	1	True	14
+5	CatBoost_r137_BAG_L1	0.667249	0.651628	roc_auc	0.082262	0.087388	1008.387254	0.082262	0.087388	1008.387254	1	True	23
+6	NeuralNetTorch_BAG_L2	0.666920	0.651560	roc_auc	14.943895	11.576515	5168.047942	1.215108	0.361777	242.345244	2	True	33
+7	LightGBMXT_BAG_L2	0.666882	0.645257	roc_auc	13.844068	11.263108	4932.622701	0.115281	0.048370	6.920002	2	True	25
+8	CatBoost_BAG_L1	0.666869	0.652498	roc_auc	0.092143	0.063144	70.940166	0.092143	0.063144	70.940166	1	True	7
+9	LightGBMLarge_BAG_L2	0.665519	0.641112	roc_auc	13.886071	11.274516	4946.871100	0.157284	0.059777	21.168402	2	True	34
+10	LightGBM_BAG_L2	0.665314	0.643129	roc_auc	13.812001	11.254098	4931.964676	0.083214	0.039360	6.261978	2	True	26
+11	CatBoost_r9_BAG_L1	0.665101	0.648262	roc_auc	0.164288	0.119588	102.024001	0.164288	0.119588	102.024001	1	True	18
+12	XGBoost_BAG_L1	0.661375	0.645898	roc_auc	0.360670	0.112522	12.818158	0.360670	0.112522	12.818158	1	True	11
+13	XGBoost_r33_BAG_L1	0.659438	0.643362	roc_auc	0.903325	0.379748	49.616073	0.903325	0.379748	49.616073	1	True	21
+14	LightGBM_r96_BAG_L1	0.656405	0.642581	roc_auc	1.038371	0.325217	27.772928	1.038371	0.325217	27.772928	1	True	19
+15	ExtraTreesEntr_BAG_L2	0.655041	0.638766	roc_auc	14.066499	12.315374	4927.608676	0.337712	1.100636	1.905978	2	True	31
+16	LightGBM_r131_BAG_L1	0.653609	0.641522	roc_auc	0.619339	0.211642	28.313366	0.619339	0.211642	28.313366	1	True	16
+17	RandomForestEntr_BAG_L2	0.653604	0.633036	roc_auc	13.974794	12.264202	4934.969314	0.246007	1.049464	9.266616	2	True	28
+18	ExtraTreesGini_BAG_L2	0.653052	0.631385	roc_auc	14.070590	12.270016	4927.580891	0.341803	1.055278	1.878193	2	True	30
+19	NeuralNetFastAI_r191_BAG_L1	0.652881	0.634839	roc_auc	1.823376	0.673585	509.503298	1.823376	0.673585	509.503298	1	True	17
+20	LightGBMXT_BAG_L1	0.651146	0.638441	roc_auc	0.182986	0.057305	6.921241	0.182986	0.057305	6.921241	1	True	3
+21	LightGBMLarge_BAG_L1	0.649924	0.636611	roc_auc	0.293789	0.101143	24.253354	0.293789	0.101143	24.253354	1	True	13
+22	LightGBM_BAG_L1	0.647660	0.633660	roc_auc	0.117669	0.046296	6.172506	0.117669	0.046296	6.172506	1	True	4
+23	NeuralNetFastAI_BAG_L1	0.646845	0.624384	roc_auc	1.458084	0.409673	1618.085223	1.458084	0.409673	1618.085223	1	True	10
+24	RandomForestGini_BAG_L2	0.646516	0.625784	roc_auc	13.989543	12.250453	4933.760077	0.260756	1.035715	8.057379	2	True	27
+25	NeuralNetTorch_r79_BAG_L1	0.645417	0.621629	roc_auc	1.473108	0.448338	450.929842	1.473108	0.448338	450.929842	1	True	15
+26	RandomForestEntr_BAG_L1	0.642444	0.624072	roc_auc	0.205290	0.867661	3.446347	0.205290	0.867661	3.446347	1	True	6
+27	NeuralNetTorch_r22_BAG_L1	0.639337	0.613589	roc_auc	1.652851	0.564856	671.974531	1.652851	0.564856	671.974531	1	True	20
+28	ExtraTreesEntr_BAG_L1	0.638963	0.611665	roc_auc	0.295561	1.027049	1.744050	0.295561	1.027049	1.744050	1	True	9
+29	NeuralNetTorch_BAG_L1	0.637095	0.620139	roc_auc	1.163260	0.368557	276.264849	1.163260	0.368557	276.264849	1	True	12
+30	ExtraTreesGini_BAG_L1	0.629678	0.610624	roc_auc	0.250039	1.023483	1.811052	0.250039	1.023483	1.811052	1	True	8
+31	RandomForestGini_BAG_L1	0.626862	0.615358	roc_auc	0.205619	0.889283	3.095061	0.205619	0.889283	3.095061	1	True	5
+32	ExtraTrees_r42_BAG_L1	0.626754	0.614054	roc_auc	0.287339	1.444181	11.312664	0.287339	1.444181	11.312664	1	True	22
+33	KNeighborsUnif_BAG_L1	0.508843	0.513568	roc_auc	0.512111	0.961700	0.018426	0.512111	0.961700	0.018426	1	True	1
+34	KNeighborsDist_BAG_L1	0.506660	0.514787	roc_auc	0.481770	0.975246	0.018800	0.481770	0.975246	0.018800	1	True	2
+
+...
+
+importance	stddev	p_value	n	p99_high	p99_low
+FICO_Score	0.069249	0.012953	1.988263e-08	10	0.082561	0.055937
+date_of_birth	0.015571	0.006179	1.142459e-05	10	0.021921	0.009220
+c_number_of_working_year	0.013530	0.006607	5.732792e-05	10	0.020320	0.006740
+number_of_children	0.009629	0.003926	1.416078e-05	10	0.013663	0.005594
+c_occupation	0.004972	0.002575	8.891218e-05	10	0.007618	0.002326
+r_allloan_amount	0.004332	0.002388	1.404553e-04	10	0.006786	0.001878
+r_generalcode3	0.004041	0.002649	4.706561e-04	10	0.006763	0.001319
+c_monthly_salary	0.003905	0.001494	8.537616e-06	10	0.005440	0.002369
+gender	0.002866	0.001803	3.564210e-04	10	0.004720	0.001013
+APP_date	0.002698	0.002694	5.701838e-03	10	0.005467	-0.000070
+place_for_sending_information	0.002430	0.001586	4.573748e-04	10	0.004061	0.000800
+APP_Shop Name	0.002382	0.001978	2.081816e-03	10	0.004414	0.000349
+r_spouse_income	0.002284	0.001127	6.225196e-05	10	0.003442	0.001125
+apply	0.001975	0.000972	6.053392e-05	10	0.002974	0.000977
+r_allloan_case	0.001920	0.001275	5.126095e-04	10	0.003230	0.000610
+c_number_of_employee	0.001617	0.001431	2.999392e-03	10	0.003087	0.000146
+living_period_year	0.001616	0.001166	8.799313e-04	10	0.002814	0.000418
+c_business_type	0.000979	0.001302	2.065132e-02	10	0.002317	-0.000359
+type_of_residence	0.000970	0.000864	3.101376e-03	10	0.001858	0.000082
+APP_Province	0.000916	0.001098	1.352234e-02	10	0.002044	-0.000213
+number_of_resident	0.000687	0.000679	5.425837e-03	10	0.001384	-0.000011
+APP_Area	0.000664	0.000923	2.448898e-02	10	0.001613	-0.000285
+living_period_month	0.000635	0.000556	2.831904e-03	10	0.001206	0.000063
+date_of_birth_week	0.000582	0.000825	2.624591e-02	10	0.001430	-0.000265
+media	0.000490	0.000431	2.895879e-03	10	0.000932	0.000047
+r_propose	0.000428	0.000500	1.205291e-02	10	0.000943	-0.000086
+c_salary_payment_methods	0.000372	0.000425	1.091819e-02	10	0.000809	-0.000065
+r_additional_income	0.000295	0.000812	1.406074e-01	10	0.001130	-0.000540
+c_position	0.000268	0.000650	1.121049e-01	10	0.000936	-0.000399
+marital_status	0.000267	0.000847	1.720650e-01	10	0.001138	-0.000603
+c_number_of_working_month	0.000255	0.000931	2.042859e-01	10	0.001213	-0.000702
+c_employment_status	0.000116	0.000358	1.665767e-01	10	0.000483	-0.000252
+tel_category	0.000089	0.000292	1.801371e-01	10	0.000389	-0.000211
+r_expected_credit_limit	-0.000113	0.001224	6.113360e-01	10	0.001145	-0.001370
+
+...
+
+AUC = 0.668
+
+...
+
+45min
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>model</th>
+      <th>score_test</th>
+      <th>score_val</th>
+      <th>eval_metric</th>
+      <th>pred_time_test</th>
+      <th>pred_time_val</th>
+      <th>fit_time</th>
+      <th>pred_time_test_marginal</th>
+      <th>pred_time_val_marginal</th>
+      <th>fit_time_marginal</th>
+      <th>stack_level</th>
+      <th>can_infer</th>
+      <th>fit_order</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>ExtraTreesEntr_BAG_L1</td>
+      <td>1.000000</td>
+      <td>0.592320</td>
+      <td>roc_auc</td>
+      <td>0.781395</td>
+      <td>4.511615</td>
+      <td>12.184225</td>
+      <td>0.781395</td>
+      <td>4.511615</td>
+      <td>12.184225</td>
+      <td>1</td>
+      <td>True</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>RandomForestEntr_BAG_L1</td>
+      <td>1.000000</td>
+      <td>0.621689</td>
+      <td>roc_auc</td>
+      <td>0.821127</td>
+      <td>5.357138</td>
+      <td>12.551056</td>
+      <td>0.821127</td>
+      <td>5.357138</td>
+      <td>12.551056</td>
+      <td>1</td>
+      <td>True</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>ExtraTreesGini_BAG_L1</td>
+      <td>1.000000</td>
+      <td>0.592279</td>
+      <td>roc_auc</td>
+      <td>0.859889</td>
+      <td>4.637202</td>
+      <td>13.958264</td>
+      <td>0.859889</td>
+      <td>4.637202</td>
+      <td>13.958264</td>
+      <td>1</td>
+      <td>True</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>RandomForestGini_BAG_L1</td>
+      <td>1.000000</td>
+      <td>0.617572</td>
+      <td>roc_auc</td>
+      <td>0.913620</td>
+      <td>5.807803</td>
+      <td>14.990369</td>
+      <td>0.913620</td>
+      <td>5.807803</td>
+      <td>14.990369</td>
+      <td>1</td>
+      <td>True</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>ExtraTreesGini_BAG_L2</td>
+      <td>0.999813</td>
+      <td>0.629937</td>
+      <td>roc_auc</td>
+      <td>32.231789</td>
+      <td>30.566969</td>
+      <td>1315.165840</td>
+      <td>0.863337</td>
+      <td>5.729326</td>
+      <td>16.152304</td>
+      <td>2</td>
+      <td>True</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>RandomForestGini_BAG_L2</td>
+      <td>0.999752</td>
+      <td>0.642156</td>
+      <td>roc_auc</td>
+      <td>32.322467</td>
+      <td>32.235214</td>
+      <td>1318.660606</td>
+      <td>0.954015</td>
+      <td>7.397571</td>
+      <td>19.647070</td>
+      <td>2</td>
+      <td>True</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>ExtraTreesEntr_BAG_L2</td>
+      <td>0.999554</td>
+      <td>0.633009</td>
+      <td>roc_auc</td>
+      <td>32.222137</td>
+      <td>30.668782</td>
+      <td>1313.831098</td>
+      <td>0.853685</td>
+      <td>5.831139</td>
+      <td>14.817562</td>
+      <td>2</td>
+      <td>True</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>WeightedEnsemble_L2</td>
+      <td>0.997655</td>
+      <td>0.664612</td>
+      <td>roc_auc</td>
+      <td>22.742017</td>
+      <td>23.678657</td>
+      <td>910.892763</td>
+      <td>0.003898</td>
+      <td>0.005137</td>
+      <td>6.822989</td>
+      <td>2</td>
+      <td>True</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>RandomForestEntr_BAG_L2</td>
+      <td>0.997624</td>
+      <td>0.644872</td>
+      <td>roc_auc</td>
+      <td>32.221671</td>
+      <td>32.783887</td>
+      <td>1316.811373</td>
+      <td>0.853219</td>
+      <td>7.946244</td>
+      <td>17.797837</td>
+      <td>2</td>
+      <td>True</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>WeightedEnsemble_L3</td>
+      <td>0.996573</td>
+      <td>0.665298</td>
+      <td>roc_auc</td>
+      <td>55.241002</td>
+      <td>53.792452</td>
+      <td>1812.129692</td>
+      <td>0.005396</td>
+      <td>0.005119</td>
+      <td>11.868317</td>
+      <td>3</td>
+      <td>True</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>CatBoost_BAG_L2</td>
+      <td>0.994452</td>
+      <td>0.663463</td>
+      <td>roc_auc</td>
+      <td>31.927413</td>
+      <td>25.172277</td>
+      <td>1318.238710</td>
+      <td>0.558961</td>
+      <td>0.334634</td>
+      <td>19.225174</td>
+      <td>2</td>
+      <td>True</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>XGBoost_BAG_L2</td>
+      <td>0.992241</td>
+      <td>0.660183</td>
+      <td>roc_auc</td>
+      <td>34.220788</td>
+      <td>25.355232</td>
+      <td>1339.275863</td>
+      <td>2.852336</td>
+      <td>0.517589</td>
+      <td>40.262326</td>
+      <td>2</td>
+      <td>True</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>NeuralNetTorch_BAG_L2</td>
+      <td>0.989157</td>
+      <td>0.657568</td>
+      <td>roc_auc</td>
+      <td>35.828639</td>
+      <td>25.502564</td>
+      <td>1402.173764</td>
+      <td>4.460186</td>
+      <td>0.664921</td>
+      <td>103.160228</td>
+      <td>2</td>
+      <td>True</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>LightGBM_BAG_L2</td>
+      <td>0.988511</td>
+      <td>0.661434</td>
+      <td>roc_auc</td>
+      <td>32.669168</td>
+      <td>25.055036</td>
+      <td>1309.999474</td>
+      <td>1.300716</td>
+      <td>0.217393</td>
+      <td>10.985938</td>
+      <td>2</td>
+      <td>True</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>NeuralNetFastAI_BAG_L2</td>
+      <td>0.975356</td>
+      <td>0.616391</td>
+      <td>roc_auc</td>
+      <td>46.999337</td>
+      <td>25.813438</td>
+      <td>1661.373164</td>
+      <td>15.630885</td>
+      <td>0.975795</td>
+      <td>362.359627</td>
+      <td>2</td>
+      <td>True</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>LightGBMXT_BAG_L2</td>
+      <td>0.945867</td>
+      <td>0.659691</td>
+      <td>roc_auc</td>
+      <td>32.742310</td>
+      <td>25.079025</td>
+      <td>1309.751175</td>
+      <td>1.373858</td>
+      <td>0.241382</td>
+      <td>10.737638</td>
+      <td>2</td>
+      <td>True</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>LightGBMLarge_BAG_L1</td>
+      <td>0.936769</td>
+      <td>0.652142</td>
+      <td>roc_auc</td>
+      <td>2.274537</td>
+      <td>0.324599</td>
+      <td>31.521201</td>
+      <td>2.274537</td>
+      <td>0.324599</td>
+      <td>31.521201</td>
+      <td>1</td>
+      <td>True</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>XGBoost_BAG_L1</td>
+      <td>0.800292</td>
+      <td>0.653456</td>
+      <td>roc_auc</td>
+      <td>2.968620</td>
+      <td>0.544086</td>
+      <td>59.626898</td>
+      <td>2.968620</td>
+      <td>0.544086</td>
+      <td>59.626898</td>
+      <td>1</td>
+      <td>True</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>LightGBMXT_BAG_L1</td>
+      <td>0.791993</td>
+      <td>0.655119</td>
+      <td>roc_auc</td>
+      <td>2.179645</td>
+      <td>0.297992</td>
+      <td>15.884188</td>
+      <td>2.179645</td>
+      <td>0.297992</td>
+      <td>15.884188</td>
+      <td>1</td>
+      <td>True</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>LightGBM_BAG_L1</td>
+      <td>0.790983</td>
+      <td>0.654620</td>
+      <td>roc_auc</td>
+      <td>1.822134</td>
+      <td>0.263513</td>
+      <td>13.296457</td>
+      <td>1.822134</td>
+      <td>0.263513</td>
+      <td>13.296457</td>
+      <td>1</td>
+      <td>True</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>CatBoost_BAG_L1</td>
+      <td>0.760095</td>
+      <td>0.659362</td>
+      <td>roc_auc</td>
+      <td>0.384167</td>
+      <td>0.378458</td>
+      <td>56.861513</td>
+      <td>0.384167</td>
+      <td>0.378458</td>
+      <td>56.861513</td>
+      <td>1</td>
+      <td>True</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>CatBoost_r177_BAG_L1</td>
+      <td>0.759439</td>
+      <td>0.659028</td>
+      <td>roc_auc</td>
+      <td>0.327189</td>
+      <td>0.224751</td>
+      <td>28.840110</td>
+      <td>0.327189</td>
+      <td>0.224751</td>
+      <td>28.840110</td>
+      <td>1</td>
+      <td>True</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>NeuralNetFastAI_BAG_L1</td>
+      <td>0.742676</td>
+      <td>0.579389</td>
+      <td>roc_auc</td>
+      <td>8.630333</td>
+      <td>1.164123</td>
+      <td>394.943762</td>
+      <td>8.630333</td>
+      <td>1.164123</td>
+      <td>394.943762</td>
+      <td>1</td>
+      <td>True</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>NeuralNetTorch_r79_BAG_L1</td>
+      <td>0.717943</td>
+      <td>0.594177</td>
+      <td>roc_auc</td>
+      <td>5.201716</td>
+      <td>0.718627</td>
+      <td>206.695925</td>
+      <td>5.201716</td>
+      <td>0.718627</td>
+      <td>206.695925</td>
+      <td>1</td>
+      <td>True</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>NeuralNetTorch_BAG_L1</td>
+      <td>0.689671</td>
+      <td>0.630049</td>
+      <td>roc_auc</td>
+      <td>4.204080</td>
+      <td>0.607735</td>
+      <td>437.659568</td>
+      <td>4.204080</td>
+      <td>0.607735</td>
+      <td>437.659568</td>
+      <td>1</td>
+      <td>True</td>
+      <td>10</td>
+    </tr>
+  </tbody>
+</table>
+</div>
