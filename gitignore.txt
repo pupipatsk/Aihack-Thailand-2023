@@ -169,7 +169,5 @@ cython_debug/
 # --- Classified Information --- #
 /notebooks/1stRound/
 /notebooks/2ndRound/
-/notebooks/main/
 data/raw/1stRound/
 data/raw/2ndRound/
-data/description
