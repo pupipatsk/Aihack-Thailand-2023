@@ -1,12 +1,3 @@
-# Aihack-Thailand-2023
-organized by AIFUL Corporation, one of the largest Japanese consumer finance companies.
-> Created a credit risk model using a machine learning approach to forecast individuals who are likely to default.
-
-Awarded the Winner Prize and Best Performance (AUC) Prize
-
-## Directory Structure
-Sensitive information is not in the remote repository for licensing purposes.
-```txt
 .
 ├── LICENSE
 ├── README.md
@@ -169,4 +160,3 @@ Sensitive information is not in the remote repository for licensing purposes.
 └── tree.txt
 
 23 directories, 137 files
-```
