@@ -1,35 +1,16 @@
 # Aihack-Thailand-2023
-organized by AIFUL Corporation, one of the largest Japanese consumer finance companies.
-> Created a credit risk model using a machine learning approach to forecast individuals who are likely to default.
 
-Awarded the Winner Prize and Best Performance (AUC) Prize
+A machine learning-based *credit risk model* designed to predict **Long-Overdue Debtors (LOD)**.
+
+**Awards**: Winner Prize and Best Performance (AUC) Prize.
+
+> Note: Sensitive information is deleted once the competition is over to comply with licensing requirements.
 
 ## Directory Structure
-Sensitive information is not in the remote repository for licensing purposes.
 ```txt
 .
 ├── LICENSE
 ├── README.md
-├── archive.zip
-├── data
-│   ├── description
-│   │   ├── analysis.xlsx
-│   │   ├── columns.png
-│   │   └── table_column.xlsx
-│   └── raw
-│       ├── 1stRound
-│       │   ├── pred.csv
-│       │   └── train.csv
-│       ├── 2ndRound
-│       │   ├── pred1.csv
-│       │   └── pred2.csv
-│       └── Titanic
-│           ├── titanic-sample-answer.csv
-│           ├── titanic-sample-test.csv
-│           ├── titanic-sample-train.csv
-│           ├── titanic-sample.xlsx
-│           ├── titanic-test.csv
-│           └── titanic-train.csv
 ├── gitignore.txt
 ├── models
 │   └── catboost_info
